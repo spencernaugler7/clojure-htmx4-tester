@@ -7,7 +7,7 @@
                  [ring/ring "1.15.4"]
                  [ring/ring-defaults "0.5.0"]
                  [compojure "1.7.2"]
-                 [hiccup/hiccup "1.0.5"]
+                 [hiccup/hiccup "2.0.0"]
                  ]
   :main ^:skip-aot test-clojure.core
   :target-path "target/%s"
