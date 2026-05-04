@@ -7,9 +7,10 @@
                  [ring/ring "1.15.4"]
                  [ring/ring-defaults "0.5.0"]
                  [compojure "1.7.2"]
-                 [hiccup/hiccup "2.0.0"]
+                 [hbs "1.1.0"]
                  ]
-  :main ^:skip-aot test-clojure.core
+  :paths [ "static"]
+  :main ^:skip-aot test-clojure.main
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
