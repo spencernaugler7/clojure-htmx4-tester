@@ -12,5 +12,5 @@
   :paths [ "static"]
   :main ^:skip-aot test-clojure.main
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all
-                       :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+  :profiles {:uberjar {:aot :all :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}
+             :dev {:dependencies [[djblue/portal "0.64.1"]]}})
