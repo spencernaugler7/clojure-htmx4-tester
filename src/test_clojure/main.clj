@@ -12,7 +12,7 @@
                {:name "James"}
                {:name "Doe"}])
 
-(def reg (hbs/registry (hbs/classpath-loader "/static" ".tpl")))
+(def reg (hbs/registry (hbs/file-loader "resources" ".tpl")))
 
 (defroutes app-routes
   (GET "/html" [firstname lastname]
