@@ -6,6 +6,7 @@
 - [htmx v4](https://four.htmx.org/)
 - [how to design hypermedia sites](https://hypermedia.systems/book/contents/)
     - [app we are cloning](https://github.com/bigskysoftware/contact-app)
+- [clojure quick ref](https://shinyu.org/en/clojure/)
 
 ## License
 
