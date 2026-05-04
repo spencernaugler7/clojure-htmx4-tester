@@ -1,16 +1,17 @@
 
 # Test htmx v4 and clojure at the same time
-- Clojure 
-    - [clojure for webservers](https://clojure-doc.org/articles/tutorials/basic_web_development/)
-    - [clojure quick ref](https://shinyu.org/en/clojure/)
-    - [useful get-in function](https://clojuredocs.org/clojure.core/get-in)
-    - [hiccup docs (how to make html)](https://github.com/weavejester/hiccup/wiki)
+
+- Clojure  
+        - [clojure for webservers](https://clojure-doc.org/articles/tutorials/basic_web_development/)
+        - [clojure quick ref](https://shinyu.org/en/clojure/)
+        - [useful get-in function](https://clojuredocs.org/clojure.core/get-in)
+        - [hiccup docs (how to make html)](https://github.com/weavejester/hiccup/wiki)
 - Web
-    - [how to design hypermedia sites](https://hypermedia.systems/book/contents/)
-    - [app we are cloning](https://github.com/bigskysoftware/contact-app)
-    - [htmx v4](https://four.htmx.org/)
-    - [handlebars to be used with hbs clojure lib](https://handlebarsjs.com/)
-    - [hbs lib](https://github.com/sunng87/hbs)
+        - [how to design hypermedia sites](https://hypermedia.systems/book/contents/)
+        - [app we are cloning](https://github.com/bigskysoftware/contact-app)
+        - [htmx v4](https://four.htmx.org/)
+        - [handlebars to be used with hbs clojure lib](https://handlebarsjs.com/)
+        - [hbs lib](https://github.com/sunng87/hbs)
 
 ## License
 
