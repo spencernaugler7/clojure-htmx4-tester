@@ -1,18 +1,17 @@
 (ns test-clojure.main
-  (:require [compojure.core :refer [defroutes GET]]
+  (:require [clojure.core.reducers]
+            [compojure.core :refer [defroutes GET]]
             [compojure.route :as route]
-            [clojure.core.reducers]
             [hbs.core :as hbs]
             [ring.adapter.jetty :as jetty]
-            [ring.middleware.defaults :refer [wrap-defaults site-defaults]])
+            [ring.middleware.defaults :refer [site-defaults wrap-defaults]]
+            [test-clojure.setup :refer [reg]])
   (:gen-class))
 
 (def contacts [{:name "Jeff"}
                {:name "Blan"}
                {:name "James"}
                {:name "Doe"}])
-
-(def reg (hbs/registry (hbs/file-loader "resources" ".tpl")))
 
 (defroutes app-routes
   (GET "/html" [firstname lastname]
